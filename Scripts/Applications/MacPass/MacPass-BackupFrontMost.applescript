@@ -5,7 +5,7 @@ set trimFilename to trim_line(fileName, "file:///Users/username/Documents/", 0)
 set destPathPOSIX to quoted form of POSIX path of "/Users/username/Documents/Chain/"
 set dateTime to (do shell script "date '+%Y-%m-%d-%H%M%S-'")
 delay 0.1
-do shell script "cp " & "/Users/georgesnow/Strongbox/" & trimFilename & " " & destPathPOSIX & dateTime & trimFilename
+do shell script "cp " & "/Users/username/Strongbox/" & trimFilename & " " & destPathPOSIX & dateTime & trimFilename
 return destPathPOSIX
 
 
