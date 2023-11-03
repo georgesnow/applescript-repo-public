@@ -1,8 +1,8 @@
 tell application "System Events" to set fileName to value of attribute "AXDocument" of window 1 of application process "MacPass"
 
 --set fileNamePOSIX to quoted form of POSIX path of fileName
-set trimFilename to trim_line(fileName, "file:///Users/georgesnow/Library/Mobile%20Documents/iCloud~com~strongbox/Documents/", 0)
-set destPathPOSIX to quoted form of POSIX path of "/Users/georgesnow/Documents/Chain/"
+set trimFilename to trim_line(fileName, "file:///Users/username/Documents/", 0)
+set destPathPOSIX to quoted form of POSIX path of "/Users/username/Documents/Chain/"
 set dateTime to (do shell script "date '+%Y-%m-%d-%H%M%S-'")
 delay 0.1
 do shell script "cp " & "/Users/georgesnow/Strongbox/" & trimFilename & " " & destPathPOSIX & dateTime & trimFilename
