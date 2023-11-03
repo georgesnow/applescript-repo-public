@@ -37,5 +37,10 @@ end menu_click_recurse
 
 tell application "Screens 4.app" to activate
 
+--the commented out line below you need to tweak the 'Dislay 2:..' to be an exact match of the menu item
+--for the displays you have
+--and remove the commented out porch
 --menu_click({"Screens", "View", "Displays", "Display 2:1920x1080"})
-menu_click({"Screens", "File", "New", "Screen"})
+
+--menu click test
+--menu_click({"Screens", "File", "New", "Screen"})

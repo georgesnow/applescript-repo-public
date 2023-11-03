@@ -1,7 +1,7 @@
 tell application "Mail"
-	--get every mailbox of account "Exchange"
-	--count every message of mailbox "Inbox/network alerts" of account id "7D06B540-A778-4A87-8591-ACA8549921CF" of application "Mail"
-	--delete every message of mailbox "Inbox/network alerts" of account id "7D06B540-A778-4A87-8591-ACA8549921CF" of application "Mail"
+	--get every mailbox of account "Gmail-Exchange-Whatever-accountname is"
+	--count every message of mailbox "Inbox/mailbox-name" of account id "7D06B540-A778-4A87-8591-ACA8549921CF" of application "Mail"
+	--delete every message of mailbox "Inbox/mailbox-name" of account id "7D06B540-A778-4A87-8591-ACA8549921CF" of application "Mail"
 	--set target_folder to selection
 	--set theMessages to the selected messages of the front message viewer
 	set selectionTo to the first message of the front message viewer
