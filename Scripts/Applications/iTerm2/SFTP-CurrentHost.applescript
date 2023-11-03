@@ -6,7 +6,7 @@ end fetch
 
 tell application "iTerm"
 	set nameofSesh to name of current session of window 1
-	if nameofSesh contains "C02FH4MEQ05P" then
+	if nameofSesh contains "name-at-prompt" then
 		set varcont to contents of current session of current window
 		--set thisThing to do shell script "echo " & varcont & "grep . | tail -n 1"
 		--display dialog thisThing
