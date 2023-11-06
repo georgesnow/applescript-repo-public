@@ -1,3 +1,7 @@
+-- this is just a one line modification of a script by  
+-- by sal  soghian 
+--posted on macsparky 
+
 tell application "System Settings"
 	--activate
 	reveal anchor "Widgets" of pane id "com.apple.Desktop-Settings.extension"
